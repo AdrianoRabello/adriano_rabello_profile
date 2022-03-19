@@ -6,7 +6,8 @@ const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 
 
-const navItems = document.querySelectorAll(".nav-items");
+const navItems = document.querySelectorAll(".nav-item");
+console.log("navitens ", navItems)
 
 // set initial of menu 
 
@@ -20,7 +21,7 @@ function togglemenu(){
     menu.classList.add('show');
     menuNav.classList.add('show');
     menuBranding.classList.add('show');
-    navItems.forEach(item => item.classList.add('show'));
+    navItems.forEach(function(item) {item.classList.add('show')});
 
     // set menu state
     showMenu = true;
