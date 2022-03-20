@@ -32,6 +32,10 @@ h1, h2, h3 {
   }
 }
 
+.text-center{
+  text-align: center;
+}
+
 a{
   color: #fff;
 }
@@ -100,6 +104,11 @@ main{
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+  }
+
+  img{
+    width: 250px;
+    height: 250px;
   }
 }
 
