@@ -238,6 +238,20 @@ main {
   color: #fff;
   height: 60px; }
 
+#cursor {
+  font-size: 30px;
+  border-right: 1px;
+  border-color: #fff;
+  height: 30px;
+  width: 1px;
+  background: #fff; }
+
+.hidden-cursor {
+  opacity: 0; }
+
+.show-cursor {
+  opacity: 0; }
+
 @media screen and (min-width: 1171px) {
   .projectcs {
     grid-template-columns: repeat(4, 1fr); } }
