@@ -47,12 +47,13 @@
     transform: translate3d(100%,0,0);
 
     .portrait{
-      background: url('../img/adriano1st.jpg');
-      width: 250px;
-      height: 250px;
+      background: url('../img/adriano_rabello_1st_small.jpg');
+      width: 150px;
+      height: 150px;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center;
+      opacity: 1;
     }
   }
 
