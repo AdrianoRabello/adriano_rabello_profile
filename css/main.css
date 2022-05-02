@@ -55,12 +55,13 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
+      width: 20rem;
+      height: 20rem;
       border-radius: 50%;
-      background: url("../img/adriano.jpeg");
-      background-attachment: fixed;
+      margin: auto;
+      background: url("../img/adriano1st.jpg");
       background-size: cover;
+      background-position: center;
       border: solid 3px #eece1e; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -238,6 +239,20 @@ main {
   color: #fff;
   height: 60px; }
 
+#cursor {
+  font-size: 30px;
+  border-right: 1px;
+  border-color: #fff;
+  height: 30px;
+  width: 1px;
+  background: #fff; }
+
+.hidden-cursor {
+  opacity: 0; }
+
+.show-cursor {
+  opacity: 0; }
+
 @media screen and (min-width: 1171px) {
   .projectcs {
     grid-template-columns: repeat(4, 1fr); } }
@@ -266,11 +281,14 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/adriano.jpeg");
-      width: 150px;
-      height: 150px; }
+      background: url("../img/adriano1st.jpg");
+      width: 250px;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projectcs {
     grid-template-columns: repeat(2, 1fr); } }
