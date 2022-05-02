@@ -47,9 +47,12 @@
     transform: translate3d(100%,0,0);
 
     .portrait{
-      background: url('../img/adriano.jpeg');
-      width: 150px;
-      height: 150px;
+      background: url('../img/adriano1st.jpg');
+      width: 250px;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
     }
   }
 
@@ -61,8 +64,7 @@
     'job2'
     'job3';
 
-    grid-template-columns: 1fr
-    ;
+    grid-template-columns: 1fr;
   }
 
   .projectcs{

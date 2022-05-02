@@ -6,7 +6,6 @@ const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 
 const navItems = document.querySelectorAll(".nav-item");
-console.log("menuNav ", menuNav);
 
 // set initial of menu
 
@@ -39,7 +38,7 @@ function togglemenu() {
 }
 
 window.onload = function () {
-  var text = "Software developer: JAVA, Springboot, Angular, full stack and more...";
+  var text = "Software developer: JAVA, Spring Boot, Angular, full stack and more...";
   var cont = 0;
   var cursor = document.getElementById("cursor");
   var textElement = document.getElementById("text");

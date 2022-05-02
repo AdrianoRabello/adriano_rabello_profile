@@ -92,12 +92,13 @@
     }
 
     .portrait{
-      width: 250px;
-      height:250px;
+      width: 20rem;
+      height:20rem;
       border-radius:50%;
-      background: url('../img/adriano.jpeg');
-      background-attachment:fixed;
+      margin: auto;
+      background: url('../img/adriano1st.jpg');
       background-size: cover;
+      background-position: center;
       border: solid 3px $secondary-color;
     }
 

@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Adriano Rabello Portifolio",
   "main": "index.js",
-  "homepage":"https://adrianorabello.github.io/adriano_rabello_profile",
+  "homepage": "https://adrianorabello.github.io/adriano_rabello_profile",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
-
   },
   "author": "adrianorabello",
   "license": "ISC",
